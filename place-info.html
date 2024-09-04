@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- header -->
+    <section id="placeinfo-header">
+        <div class="container">
+            <nav>
+                <div class="logo"><h1>TravelMap</h1></div>
+                <ul class="nav-links">
+                    <li><a href="index.html" class="hover-nav">Home</a></li>
+                    <li><a href="#" class="hover-nav">About</a></li>
+                    <li><a href="place-info.html" class="hover-nav">Place Info</a></li>
+                    <li><a href="contact.html" class="hover-nav">Contact</a></li>
+                </ul>
+                <div class="menu-btn"><i class="fa-solid fa-bars"></i></div>
+            </nav>
+            <div class="header-content">
+                <h1 class="tit">PLACE INFO</h1>
+            </div>
+        </div>
+   </section>
+
+   <!-- place section -->
+    <section class="place-section">
+        <div class="p-container">
+                <div class="place-img">
+                    <img src="Goa.jpeg"alt="">
+                </div>
+                <div class="place-desc">
+                    <h1>Goa</h1><br>
+                    <h4>
+                        How to Reach:<br><br>
+
+                        By Train: Madgaon and Vasco da Gama are the major railway stations.<br>
+                        By Bus: Buses are available from Mumbai, Pune, and Bangalore.
+                    </h4><br>
+                    <p>
+                        Why Visit: Explore beaches like Baga, Anjuna, and Palolem, along with ancient churches and vibrant flea markets.
+                    </p><br>
+                    <button class="pri-btn">Learn More</button>
+                </div>
+        </div>
+    </section>
+
+    <section class="place-section">
+        <div class="p-container"style="flex-direction: row-reverse;">
+                <div class="place-img">
+                    <img src="Kerala (Backwaters).jpeg"alt="">
+                </div>
+                <div class="place-desc">
+                    <h1> Kerala Backwaters – Alappuzha</h1><br>
+                    <h4>
+                        How to Reach:<br><br>
+
+                        By Train: Alappuzha Railway Station is the closest, connected to major cities.<br>
+                        By Bus: Kerala State Transport buses from Kochi and Trivandrum.
+                    </h4><br>
+                    <p>
+                        Why Visit: Relax in a houseboat and explore the backwaters, lush greenery, and traditional Kerala cuisine.
+                    </p><br>
+                    <button class="pri-btn">Learn More</button>
+                </div>
+        </div>
+    </section>
+
+    <section class="place-section">
+        <div class="p-container">
+                <div class="place-img">
+                    <img src="Manali – Himachal Pradesh.jpeg"alt="">
+                </div>
+                <div class="place-desc">
+                    <h1> Manali – Himachal Pradesh</h1><br>
+                    <h4>
+                        How to Reach:<br><br>
+
+                        By Train: Joginder Nagar Railway Station is closest; Chandigarh and Ambala are more accessible.<br>
+                        By Bus: Buses are available from Delhi, Chandigarh, and Shimla.
+                    </h4><br>
+                    <p>
+                        Why Visit: Rohtang Pass, Solang Valley, and Hadimba Temple are popular attractions. Enjoy trekking, skiing, and other adventure sports.
+                    </p><br>
+                    <button class="pri-btn">Learn More</button>
+                </div>
+        </div>
+    </section>
+
+
+
+
+
+      <!-- footer -->
+      <section>
+        <footer>
+            <ul class="footerlinks">
+                <li><a href="index.html" class="hover-nav">Home</a></li>
+                        <li><a href="#" class="hover-nav">About</a></li>
+                        <li><a href="place-info.html" class="hover-nav">Place Info</a></li>
+                        <li><a href="contact.html" class="hover-nav">Contact</a></li>
+            </ul>
+            <h1 class="logo">TravelMap</h1>
+            <p>@2024 TravelMap. All right reserved</p>
+        </footer>
+       </section>
+    
+       <script>
+        const menubtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+    
+        menubtn.addEventListener('click', function(){
+               navlinks.classList.toggle('active')
+        })
+       </script>
+    </body>
+    </html>   
